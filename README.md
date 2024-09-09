@@ -3,10 +3,10 @@
 TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TED-Seq) generated through a ONT sequencer.
 
 ## Table of contents
-- [TED-Seq Germline Long-reads pipeline ](#TED-Seq Germline Short-reads pipeline )
+- [TED-Seq Germline Long-reads pipeline ](#TED-Seq Germline Long-reads pipeline )
   * [Installation](#installation)
     + [Dependencies](#dependencies)
-  * [TED-Seq short-reads main steps](#TED-Seq-long-reads-main-steps)
+  * [TED-Seq Long-reads main steps](#TED-Seq-long-reads-main-steps)
   * [Input data](#input-data)
   * [Usage](#usage)
 	+ [Output](#output)
@@ -14,7 +14,7 @@ TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detec
 
 ### Dependencies
 
-TEDSeq Germline Short-reads pipeline requires the following softwares:
+TEDSeq Germline Long-reads pipeline requires the following softwares:
 
 * SAMtools (v1.2 or higher) (http://samtools.sourceforge.net/)
 * Seqtk (V1.3 or higher) (https://github.com/lh3/seqtk)
@@ -58,7 +58,7 @@ Detect TE insertions
 To launch the pipeline use the following script:
 
 ```
-bash Short_read_TEDSeq_TE_germline.sh 
+bash Long_read_TEDSeq_TE_germline.sh 
 --sample        Name of the sample (required).
 --reads         Full path to the raw ONT fastq file (required).
 --refDir        Path to reference genome (required).
@@ -77,7 +77,7 @@ bash Short_read_TEDSeq_TE_germline.sh
 
 TED-Seq Germline Long-reads pipeline will return as an output:
 
-* Two bam files of the mapping of the deduplicated and trimmed short-reads to the reference genome
+* Two bam files of the mapping of the deduplicated and trimmed long-reads to the reference genome
   $sample_clip_disc-local.bam
  
 * A bed file containing the non-reference germline insertions
