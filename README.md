@@ -6,7 +6,7 @@ TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detec
 - [TED-Seq Germline Long-reads pipeline ](#TED-Seq Germline Short-reads pipeline )
   * [Installation](#installation)
     + [Dependencies](#dependencies)
-  * [TED-Seq short-reads main steps](#TED-Seq-short-reads-main-steps)
+  * [TED-Seq short-reads main steps](#TED-Seq-long-reads-main-steps)
   * [Input data](#input-data)
   * [Usage](#usage)
 	+ [Output](#output)
