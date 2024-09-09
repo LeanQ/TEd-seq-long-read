@@ -12,11 +12,6 @@ TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detec
 	+ [Output](#output)
   * [Cite](#cite)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
-
-
 ### Dependencies
 
 TEDSeq Germline Short-reads pipeline requires the following softwares:
