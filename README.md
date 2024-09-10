@@ -1,6 +1,6 @@
-# TED-Seq Germline Long-reads pipeline 
+# TEd-Seq Germline Long-reads pipeline 
 
-TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TEd-Seq) generated through a ONT sequencer.
+TEd-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TEd-Seq) generated through a ONT sequencer.
 
 ## Table of contents
 - [TEd-Seq Germline Long-reads pipeline ](#TEd-Seq Germline Long-reads pipeline )
