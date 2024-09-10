@@ -1,12 +1,12 @@
 # TED-Seq Germline Long-reads pipeline 
 
-TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TED-Seq) generated through a ONT sequencer.
+TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detect transposable element insertions with ultra high sensitivity using custom made libraries to enrich and capture TE insertions (TEd-Seq) generated through a ONT sequencer.
 
 ## Table of contents
-- [TED-Seq Germline Long-reads pipeline ](#TED-Seq Germline Long-reads pipeline )
+- [TEd-Seq Germline Long-reads pipeline ](#TEd-Seq Germline Long-reads pipeline )
   * [Installation](#installation)
     + [Dependencies](#dependencies)
-  * [TED-Seq Long-reads main steps](#TED-Seq-long-reads-main-steps)
+  * [TEd-Seq Long-reads main steps](#TEd-Seq-long-reads-main-steps)
   * [Input data](#input-data)
   * [Usage](#usage)
 	+ [Output](#output)
@@ -14,7 +14,7 @@ TED-Seq Germline Long-reads pipeline is the bioinformatic pipeline used to detec
 
 ### Dependencies
 
-TEDSeq Germline Long-reads pipeline requires the following softwares:
+TEd-Seq Germline Long-reads pipeline requires the following softwares:
 
 * SAMtools (v1.2 or higher) (http://samtools.sourceforge.net/)
 * Seqtk (V1.3 or higher) (https://github.com/lh3/seqtk)
@@ -25,7 +25,7 @@ TEDSeq Germline Long-reads pipeline requires the following softwares:
 * bedtools (v2.20.1 or higher) (https://bedtools.readthedocs.io/en/latest/content/installation.html)
 
 
-## TED-Seq long-reads main steps
+## TEd-Seq long-reads main steps
 
 
 1- Extraction of reads containing the desired TE family and barcode to analyze and trimming of the sequence, removal of PCR duplicates.
@@ -41,7 +41,7 @@ TEDSeq Germline Long-reads pipeline requires the following softwares:
 
 This pipeline requires as an input:
 
-1. A raw fastq file derived from TED-seq data demultiplexed for the corresponding barcodes
+1. A raw fastq file derived from TEd-seq data demultiplexed for the corresponding barcodes
 2. A tab-delimited file containing TE family coordinates across the genome. The file should have the following format: 
 
 	- Chromosome name (should be the same nomenclature as in the reference genome fasta file)
@@ -75,7 +75,7 @@ bash Long_read_TEDSeq_TE_germline.sh
 
 ### Output
 
-TED-Seq Germline Long-reads pipeline will return as an output:
+TEd-Seq Germline Long-reads pipeline will return as an output:
 
 * Two bam files of the mapping of the deduplicated and trimmed long-reads to the reference genome
   $sample_clip_disc-local.bam
